@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html {
+  font-family: 'Playfair Display', serif;
+  color: white;
+  background-color: #111;
+}
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+.section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+.section p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+.hero {
+  background: url('tlo.jpeg') no-repeat center 45%/cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.4);
+  z-index: 1;
+}
+.hero-content {
+  z-index: 2;
+}
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 0.3em;
+}
+.hero h2 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+.countdown {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  margin-bottom: 1.5em;
+}
+.countdown div {
+  font-size: 1.2em;
+}
+.buttons a {
+  border: 1px solid white;
+  padding: 10px 20px;
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+  border-radius: 25px;
+  transition: background 0.3s;
+}
+.buttons a:hover {
+  background-color: rgba(255,255,255,0.2);
+}
+nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 3;
+}
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+
+.custom-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-outline {
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-outline:hover {
+    background-color: white;
+    color: black;
+}
+
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+    color: #333;
+}
+
+section:nth-of-type(even) {
+    background-color: #f9f9f9;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.guest-guide {
+  text-align: center;
+  font-family: 'Georgia', serif;
+  padding: 40px 20px;
+}
+
+.guest-guide h2 {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.guide-card {
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  padding: 30px 20px;
+  max-width: 400px;
+  border-radius: 12px;
+}
+
+.guide-card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.guide-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-family: 'Brush Script MT', cursive;
+}
+
+.guide-card p {
+  font-size: 1em;
+  color: #333;
+}
